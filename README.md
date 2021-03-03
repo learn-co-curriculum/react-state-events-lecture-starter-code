@@ -12,10 +12,16 @@
 ## Outline
 
      5m Introduction to State
-		10m Using State
-     5m CFU: Using state
+    10m Using State
     10m Conditional Rendering
     10m Events in React
      5m Presentational vs Container Components
+     5m CFU: Using state and events to update state
     ===
     45m Total
+
+**Note: Painting data has been decreased in this lecture for easy scrolling**
+
+### Introduction to State
+
+

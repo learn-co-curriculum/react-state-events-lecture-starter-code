@@ -9,6 +9,8 @@ const NavBar = props => {
           <div className="sub header">{props.description}</div>
         </h2>
       </a>
+      <button onClick={props.changeColor}>Change color</button>
+
     </div>
   );
 };
