@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import 'semantic-ui-css/semantic.min.css';
+import NavBar from './NavBar';
+import PaintingsList from './PaintingsList';
+import paintings from './painting_data'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar
+        color="red"
+        title="Paintr"
+        icon="paint brush"
+        description="an app we made"
+      />
+      <PaintingsList paintings={paintings} />
     </div>
   );
 }
